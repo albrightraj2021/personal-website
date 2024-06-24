@@ -6,9 +6,9 @@ export default function Header() {
                 ABR
             </div>
           <div className="">
-            <a className="mr-2" href="#Home">Home</a>
-            <a className="mr-2" href="#About"> About</a>
-            <a className="mr-2" href="#About">Contact</a>
+            <a className="mr-3" href="#Home">Home</a>
+            <a className="mr-3" href="#About"> About</a>
+            <a className="mr-3" href="#About">Contact</a>
           </div>
         </div>
         </>
