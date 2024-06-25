@@ -4,7 +4,7 @@ import Home from "./Home"
 export default function () {
   return(
     <>
-    <Header />
+    <Header  />
     <Home />
     </>
   )
