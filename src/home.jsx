@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <>
             <div className="bg-cyan-950 flex flex-col items-center justify-center pt-12 overflow-hidden  flex-wrap " id="Home">
-                <div className="flex flex-col xl:flex-row items-center justify-center w-full pt-10 xl:pt-4">
+                <div className="flex flex-col xl:flex-row items-center justify-center w-full pt-10 xl:pt-6">
                     <div className="text-center  w-full pt-4 xl:w-1/2 xl:mb-8 pb-10">
                         <p className="text-blue-200 text-4xl font-semibold xl:text-6xl mt-3 xl:pb-2">Hello, I'm</p>
                         <p className="text-white text-5xl xl:text-7xl mt-7 p-1 font-bold  xl:pb-5">Albright Raj</p>
