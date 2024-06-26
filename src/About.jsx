@@ -4,16 +4,16 @@ import aboutSignature from "./assets/img/signature.png"
 export default function About() {
  return(
     <>
-    <div id="about" className="p-4 md:p-8">
-      <div className="flex flex-wrap justify-between x" >
-        <div className="w-full xl:w-1/4 ">
+    <div id="About" className="p-4 md:p-8">
+      <div className="flex flex-wrap  xl:mt-16" >
+        <div className="w-full xl:w-1/4 mt-10 p-10 xl:p-0 xl:ml-5 xl:mr-28">
           <img src={AboutImg} alt="about" className="w-full max-w-400" />
         </div>
-        <div className="w-full md:w-1/2 md:ml-8 mt-4 md:mt-0">
+        <div className="w-full md:w-1/2 md:ml-8 mt-4 md:mt-0 xl:ml-20">
           <div className="mb-4">
-            <span className="text-lg font-bold text-gray-800">ABOUT ME</span>
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">I Develop Website that Works</h2>
-            <p className="text-gray-700 leading-relaxed">
+            <span className="text-lg font-bold text-blue-900">ABOUT ME</span>
+            <h2 className="text-3xl font-bold text-blue-800 mb-2">I Develop Website that Works</h2>
+            <p className="text-gray-700 leading-relaxed text-xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas earum sapiente voluptate quaerat, perferendis quasi saepe veritatis qui necessitatibus ut. Odio molestias cupiditate, nemo fugit repudiandae totam! Distinctio, tempora veritatis.
             </p>
           </div>
@@ -36,8 +36,8 @@ export default function About() {
               <span>abr@abr.com</span>
             </div>
             <div className="flex items-center">
-              <span className="font-semibold mr-2">Occupation</span>
-              <span>Web Designer</span>
+              <span className="font-semibold mr-2 ">Occupation</span>
+              <span className="text-center">Web Designer</span>
             </div>
             <div className="flex items-center">
               <span className="font-semibold mr-2">Nationality</span>
