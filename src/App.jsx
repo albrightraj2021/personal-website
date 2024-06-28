@@ -1,4 +1,4 @@
-
+import React, { useEffect } from 'react';
 import About from "./About"
 import Header from "./Header"
 import Home from "./Home"

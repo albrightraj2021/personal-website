@@ -1,6 +1,8 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Contact() {
+
+  
   return (
     <>
       <div id="Contact" className=" xl:pb-1 xl:p-10  bg-cyan-300 pt-20">
@@ -39,8 +41,8 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            <div className="form-container xl:ml-32 w-full md:w-7/12 ">
-              <form>
+            <div className="form-container xl:ml-32 w-full md:w-7/12 xl:w-7/12 ">
+              <form name="form-content">
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
                   <div>
                     <input type="text" placeholder="Your Name" className="form-input w-full p-3 bg-cyan-50  rounded border-2 border-cyan-500" name="name" />
@@ -56,7 +58,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <textarea className=" w-full p-2 bg-cyan-50  xl:mt-3 rounded border-2 border-cyan-500" cols="65" rows="8" placeholder="Start writing message here" name="message"></textarea>
-                <button className=" mt-4 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold py-2 px-4 rounded">
+                <button type='submit' className=" mt-4 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold py-2 px-4 rounded">
                   Submit Now
                 </button>
               </form>
