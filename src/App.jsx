@@ -9,7 +9,7 @@ export default function () {
     <Header  />
     <Home />
     <About />
-    <Contact />
+ <Contact/>
     </>
   )
 }

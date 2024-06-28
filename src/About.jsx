@@ -16,20 +16,20 @@ export default function About() {
             I'm Albright Raj, a passionate web designer dedicated to crafting visually appealing and highly functional websites. With a keen eye for detail and a focus on user experience.
            
             </p>
-            <hr className='h-px border-1 dark:bg-gray-700 mt-4 ml-6' />
+            <hr className='border-1 dark:bg-gray-700 mt-4 ml-6' />
             <div className='grid xl:grid-cols-4 pt-5 pl-4 grid-cols-2 ml-6 gap-x-0 break-all'>
-              <div className='font-medium text-2xl p-2 py-4'>Name</div>
-              <div className='text-xl p-2 py-4'>Albright Raj S J</div>
-              <div className='font-medium text-2xl p-2 py-4'>Phone</div>
-              <div className='text-xl p-2 py-4'>+919751243528</div>
-              <div className='font-medium text-2xl p-2 py-4'>Age</div>
-              <div className='text-xl p-2 py-4'>21</div>
-              <div className='font-medium text-2xl p-2 py-4'>Email</div>
-              <div className='text-xl p-2 py-4 '>albrightraj1211@gmail.com</div>
-              <div className='font-medium text-2xl p-2 py-4'>Occupation</div>
-              <div className='text-xl p-2 py-4'>Web Designer</div>
-              <div className='font-medium text-2xl p-2 py-4'>Nationality</div>
-              <div className='text-xl p-2 py-4'>Indian</div>
+              <div className='font-medium text-xl p-2 py-4'>Name</div>
+              <div className='text-lg  p-2 py-4'>Albright Raj S J</div>
+              <div className='font-medium text-xl p-2 py-4'>Phone</div>
+              <div className='text-lg p-2 py-4'>+919751243528</div>
+              <div className='font-medium text-xl p-2 py-4'>Age</div>
+              <div className='text-lg p-2 py-4'>21</div>
+              <div className='font-medium text-xl p-2 py-4'>Email</div>
+              <div className='text-lg p-2 py-4 '>albrightraj1211@gmail.com</div>
+              <div className='font-medium text-xl p-2 py-4'>Occupation</div>
+              <div className='text-lg p-2 py-4'>Web Designer</div>
+              <div className='font-medium text-xl p-2 py-4'>Nationality</div>
+              <div className='text-lg p-2 py-4'>Indian</div>
             </div>
             <hr className='border-1 dark:bg-gray-700 mt-4 ml-6' />
             <div className='flex xl:mt-10 align-middle gap-10 w-5/6 mt-5 pl-8'>
