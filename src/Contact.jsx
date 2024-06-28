@@ -39,7 +39,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            <div className="form-container xl:ml-20 *:-mr-20  xl:w-6/12  ">
+            <div className="form-container xl:ml-20 *:-mr-20  xl:w-6/12 ml-1 w-9/12 ">
               <form>
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
                   <div>
