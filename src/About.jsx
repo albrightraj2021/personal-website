@@ -16,7 +16,7 @@ export default function About() {
               I'm Albright Raj, a passionate web designer dedicated to crafting visually appealing and highly functional websites. With a keen eye for detail and a focus on user experience.
             </p>
             <hr className='border-1 dark:bg-gray-700 mt-4 ml-6' />
-          <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 mt-6 gap-x-4 gap-y-3 xl:ml-6 ml-8'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 mt-6 gap-x-4 gap-y-3  xl:gap-y-6 xl:ml-6 ml-8'>
               <div className='font-medium text-xl'>Name</div>
               <div className='text-lg'>Albright Raj S J</div>
               <div className='font-medium text-xl'>Phone</div>
