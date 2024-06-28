@@ -6,7 +6,7 @@ export default function About() {
     <>
     <div id="About" className="p-4">
         <div className='flex flex-col xl:flex-row'>
-          <div className='xl:w-6/12 xl:ml-14 my-18 mt-24 mb-14 w-full mx-auto'>
+          <div className='xl:w-6/12 xl:ml-14 my-18 mt-24 mb-14 w-10/12 mx-auto'>
             <img src={AboutImg} alt="about" className='xl:w-auto w-full rounded-lg' />
           </div>
           <div className='xl:mt-32 xl:mr-12 xl:ml-10 xl:mb-32  w-full'>
