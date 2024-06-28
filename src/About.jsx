@@ -18,30 +18,46 @@ export default function About() {
             <p className="text-3xl font-semibold text-cyan-800 mt-4 pl-7">
               Creating Websites That Drive Success
             </p>
-            <p className="mt-4 xl:ml-6 ml-8 text-xl">
+            <p className="mt-4 xl:ml-7 ml-7 mr-2 text-xl">
               I'm Albright Raj, a passionate web designer dedicated to crafting
               visually appealing and highly functional websites. With a keen eye
               for detail and a focus on user experience.
             </p>
-            <hr className="border-1 dark:bg-gray-700 mt-4 ml-6" />
-            <div class="grid grid-cols-2 xl:grid-cols-4 gap-0.5">
-  <div class="font-medium text-base mr-1">Name</div>
-  <div class="text-sm">Albright Raj S J</div>
-  <div class="font-medium text-base">Phone</div>
-  <div class="text-sm">+919751243528</div>
-  <div class="font-medium text-base">Age</div>
-  <div class="text-sm">21</div>
-  <div class="font-medium text-base">Email</div>
-  <div class="text-sm break-words">albrightraj1211@gmail.com</div>
-  <div class="font-medium text-base">Occupation</div>
-  <div class="text-sm">Web Designer</div>
-  <div class="font-medium text-base">Nationality</div>
-  <div class="text-sm">Indian</div>
-</div>
+            <div class="pt-4 pb-8 mt-4 ml-6 w-full">
+              <div class="flex flex-wrap">
+                <div class="xl:w-1/2 lg:w-full md:w-1/2 w-full">
+                  <ul class="about-info flex">
+                    <li class="pr-9">
+                      <p class="font-medium mb-3 text-lg">Name</p>
+                      <p class="font-medium mb-3 text-lg">Age</p>
+                      <p class="font-medium mb-3 text-lg">Occupation</p>
+                    </li>
+                    <li>
+                      <p class="mb-3 text-lg">Albright Raj S J</p>
+                      <p class="mb-3 text-lg">21 Years</p>
+                      <p class="mb-3 text-lg">System Engineer</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="xl:w-1/2 lg:w-full md:w-1/2 w-full">
+                  <ul class="about-info flex">
+                    <li class="pr-10">
+                      <p class="font-medium mb-3 text-lg">Phone</p>
+                      <p class="font-medium mb-3 text-lg">Email</p>
+                      <p class="font-medium mb-3 text-lg break-words">Nationality</p>
+                    </li>
+                    <li>
+                      <p class="mb-3 text-lg">+91 9751243528</p>
+                      <p class="mb-3 text-lg break-words">albrightraj1211@gmail.com</p>
+                      <p class="mb-3 text-lg">Indian</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
-
             <hr className="border-1 dark:bg-gray-700 mt-4 ml-6" />
-            <div className="flex xl:mt-10 align-middle xl:gap-4 gap-x-5 xl:w-5/6 w-11/12 mt-5 pl-8">
+            <div className="flex xl:mt-10 align-middle xl:gap-4 gap-x-1 xl:w-5/6 w-11/12 mt-5 pl-8">
               <div>
                 <img src={Signature} alt="signature" />
               </div>
