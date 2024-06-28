@@ -4,9 +4,9 @@ import Signature from "./assets/img/signature.png";
 export default function About() {
   return (
     <>
-      <div id="About" className="p-4">
-        <div className="flex flex-col xl:flex-row">
-          <div className="xl:w-6/12 xl:ml-14 my-18 mt-24 mb-14 w-10/12 mx-auto">
+      <div id="About" className="m-6">
+        <div className="flex flex-col xl:flex-row w-full">
+          <div className="xl:w-6/12 xl:ml-14 my-18 mt-24 mb-14 w-full mx-auto">
             <img
               src={AboutImg}
               alt="about"
@@ -14,16 +14,16 @@ export default function About() {
             />
           </div>
           <div className="xl:mt-32 xl:mr-12 xl:ml-10 xl:mb-32  w-full">
-            <p className="xl:text-4xl text-3xl font-semibold ml-7">ABOUT ME</p>
-            <p className="text-3xl font-semibold text-cyan-800 mt-4 pl-7">
+            <p className="xl:text-4xl text-3xl font-semibold ml-3">ABOUT ME</p>
+            <p className="text-3xl font-semibold text-cyan-800 mt-4 pl-2">
               Creating Websites That Drive Success
             </p>
-            <p className="mt-4 xl:ml-7 ml-7 mr-2 text-xl">
+            <p className="mt-4 xl:ml-7 ml-3 mr-2 text-xl">
               I'm Albright Raj, a passionate web designer dedicated to crafting
               visually appealing and highly functional websites. With a keen eye
               for detail and a focus on user experience.
             </p>
-            <div class="pt-4 pb-8 mt-4 ml-6 w-full">
+            <div class="pt-4 pb-8 mt-4 ml-2 w-full">
               <div class="flex flex-wrap">
                 <div class="xl:w-1/2 lg:w-full md:w-1/2 w-full">
                   <ul class="about-info flex">
