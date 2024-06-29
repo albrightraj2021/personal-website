@@ -27,7 +27,7 @@ export default function About() {
               <div class="flex flex-wrap">
                 <div class="xl:w-1/2 lg:w-full md:w-1/2 w-full">
                   <ul class="about-info flex">
-                    <li class="pr-9">
+                    <li class="pr-6">
                       <p class="font-medium mb-3 text-lg">Name</p>
                       <p class="font-medium mb-3 text-lg">Age</p>
                       <p class="font-medium mb-3 text-lg">Occupation</p>
@@ -41,7 +41,7 @@ export default function About() {
                 </div>
                 <div class="xl:w-1/2 lg:w-full md:w-1/2 w-full">
                   <ul class="about-info flex">
-                    <li class="pr-10">
+                    <li class="pr-7">
                       <p class="font-medium mb-3 text-lg">Phone</p>
                       <p class="font-medium mb-3 text-lg">Email</p>
                       <p class="font-medium mb-3 text-lg break-words">Nationality</p>
