@@ -18,7 +18,7 @@ export default function About() {
             <p className="text-3xl font-semibold text-cyan-800 mt-4 pl-2">
               Creating Websites That Drive Success
             </p>
-            <p className="mt-4 xl:ml-7 ml-3 mr-2 text-xl">
+            <p className="mt-4 xl:ml-3 ml-3 mr-2 text-xl">
               I'm Albright Raj, a passionate web designer dedicated to crafting
               visually appealing and highly functional websites. With a keen eye
               for detail and a focus on user experience.
