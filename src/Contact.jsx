@@ -55,7 +55,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <textarea className=" w-full p-2 bg-cyan-50  xl:mt-3 rounded-lg border-2 border-cyan-500" cols="65" rows="8" placeholder="Start writing message here" name="message"></textarea>
-                <button className="mb-3 mt-4 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold py-3 px-3 rounded-lg xl:mx-auto">
+                <button className=" mb-3 mt-4 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold py-3 px-3 rounded-lg xl:mx-auto">
                   Submit Now
                 </button>
               </form>
