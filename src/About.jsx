@@ -1,6 +1,5 @@
 import AboutImg from "./assets/img/about-img.jpg";
 import Signature from "./assets/img/signature.png";
-import Header from "./Header";
 export default function About() {
   return (
     <>
