@@ -8,15 +8,11 @@ export default function () {
     <>
     <Router>
      <Header/>
-     {/* <Home/>
-      <About/>
-      <Contact/> */}
           <Routes>
            <Route exec path="/" element={<Home />} /> 
             <Route path="/about" element={<About/>} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-      
        </Router>
        
     </>

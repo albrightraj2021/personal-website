@@ -38,24 +38,24 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            <div className="form-container xl:ml-20 *:-mr-20  xl:w-6/12 ml-1 w-9/12 ">
+            <div className="form-container xl:ml-20 *:-mr-20  xl:w-5/12 ml-1 w-9/12 ">
               <form>
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
                   <div>
-                    <input type="text" placeholder="Your Name" className="form-input w-full p-3 bg-cyan-50  rounded border-2 border-cyan-500" name="name" />
+                    <input type="text" placeholder="Your Name" className="form-input w-full p-3 bg-cyan-50  rounded-lg border-2 border-cyan-500" name="name" />
                   </div>
                   <div>
-                    <input type="email" placeholder="Your Email" className="form-input w-full p-3 bg-cyan-50  rounded border-2 border-cyan-500" name="email" />
+                    <input type="email" placeholder="Your Email" className="form-input w-full p-3 bg-cyan-50  rounded-lg border-2 border-cyan-500" name="email" />
                   </div>
                   <div>
-                    <input type="tel" placeholder="Your Phone" className="form-input w-full p-4 bg-cyan-50  rounded border-2 border-cyan-500" name="Phone" />
+                    <input type="tel" placeholder="Your Phone" className="form-input w-full p-4 bg-cyan-50  rounded-lg border-2 border-cyan-500" name="Phone" />
                   </div>
                   <div>
-                    <input type="text" placeholder="Your Subject" className="form-input w-full p-4 bg-cyan-50 rounded mb-5 border-2 border-cyan-500" name="Subject" />
+                    <input type="text" placeholder="Your Subject" className="form-input w-full p-4 bg-cyan-50 rounded-lg mb-5 border-2 border-cyan-500" name="Subject" />
                   </div>
                 </div>
-                <textarea className=" w-full p-2 bg-cyan-50  xl:mt-3 rounded border-2 border-cyan-500" cols="65" rows="8" placeholder="Start writing message here" name="message"></textarea>
-                <button className="mb-3 mt-4 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold py-3 px-3 rounded xl:mx-auto">
+                <textarea className=" w-full p-2 bg-cyan-50  xl:mt-3 rounded-lg border-2 border-cyan-500" cols="65" rows="8" placeholder="Start writing message here" name="message"></textarea>
+                <button className="mb-3 mt-4 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold py-3 px-3 rounded-lg xl:mx-auto">
                   Submit Now
                 </button>
               </form>
