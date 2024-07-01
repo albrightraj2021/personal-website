@@ -3,7 +3,6 @@ import Header from './Header';
 export default function Contact() {
   return (
     <>
-    <Header />
       <div className="w-full xl:pb-1 xl:p-10  bg-cyan-300 pt-20  ">
         <div className=" xl:px-8 p-4 bg-cyan-300  ">
           <div className=" text-center mb-4 xl:mt-11">

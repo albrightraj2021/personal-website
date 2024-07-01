@@ -4,7 +4,7 @@ import Header from "./Header";
 export default function About() {
   return (
     <>
-    <Header />
+
       <div className="m-6">
         <div className="flex flex-col xl:flex-row w-full">
           <div className="xl:w-6/12 xl:ml-14 my-18 mt-24 mb-14 w-full mx-auto">
