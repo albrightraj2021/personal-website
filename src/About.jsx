@@ -1,10 +1,11 @@
 import AboutImg from "./assets/img/about-img.jpg";
 import Signature from "./assets/img/signature.png";
-
+import Header from "./Header";
 export default function About() {
   return (
     <>
-      <div id="About" className="m-6">
+    <Header />
+      <div className="m-6">
         <div className="flex flex-col xl:flex-row w-full">
           <div className="xl:w-6/12 xl:ml-14 my-18 mt-24 mb-14 w-full mx-auto">
             <img
@@ -23,33 +24,33 @@ export default function About() {
               visually appealing and highly functional websites. With a keen eye
               for detail and a focus on user experience.
             </p>
-            <div class="pt-4 pb-8 mt-4 ml-2 w-full">
-              <div class="flex flex-wrap">
-                <div class="xl:w-1/2 lg:w-full md:w-1/2 w-full">
-                  <ul class="about-info flex">
-                    <li class="pr-6">
-                      <p class="font-medium mb-3 text-lg">Name</p>
-                      <p class="font-medium mb-3 text-lg">Age</p>
-                      <p class="font-medium mb-3 text-lg">Occupation</p>
+            <div className="pt-4 pb-8 mt-4 ml-2 w-full">
+              <div className="flex flex-wrap">
+                <div className="xl:w-1/2 lg:w-full md:w-1/2 w-full">
+                  <ul className="about-info flex">
+                    <li className="pr-6">
+                      <p className="font-medium mb-3 text-lg">Name</p>
+                      <p className="font-medium mb-3 text-lg">Age</p>
+                      <p className="font-medium mb-3 text-lg">Occupation</p>
                     </li>
                     <li>
-                      <p class="mb-3 text-lg">Albright Raj S J</p>
-                      <p class="mb-3 text-lg">21 Years</p>
-                      <p class="mb-3 text-lg">System Engineer</p>
+                      <p className="mb-3 text-lg">Albright Raj S J</p>
+                      <p className="mb-3 text-lg">21 Years</p>
+                      <p className="mb-3 text-lg">System Engineer</p>
                     </li>
                   </ul>
                 </div>
-                <div class="xl:w-1/2 lg:w-full md:w-1/2 w-full">
-                  <ul class="about-info flex">
-                    <li class="pr-7">
-                      <p class="font-medium mb-3 text-lg">Phone</p>
-                      <p class="font-medium mb-3 text-lg">Email</p>
-                      <p class="font-medium mb-3 text-lg break-words">Nationality</p>
+                <div className="xl:w-1/2 lg:w-full md:w-1/2 w-full">
+                  <ul className="about-info flex">
+                    <li className="pr-7">
+                      <p className="font-medium mb-3 text-lg">Phone</p>
+                      <p className="font-medium mb-3 text-lg">Email</p>
+                      <p className="font-medium mb-3 text-lg break-words">Nationality</p>
                     </li>
                     <li>
-                      <p class="mb-3 text-lg">+91 9751243528</p>
-                      <p class="mb-3 text-lg break-words">albrightraj1211@gmail.com</p>
-                      <p class="mb-3 text-lg">Indian</p>
+                      <p className="mb-3 text-lg">+91 9751243528</p>
+                      <p className="mb-3 text-lg break-words">albrightraj1211@gmail.com</p>
+                      <p className="mb-3 text-lg">Indian</p>
                     </li>
                   </ul>
                 </div>

@@ -1,9 +1,10 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import Header from './Header';
 export default function Contact() {
   return (
     <>
-      <div id="Contact" className="w-full xl:pb-1 xl:p-10  bg-cyan-300 pt-20  ">
+    <Header />
+      <div className="w-full xl:pb-1 xl:p-10  bg-cyan-300 pt-20  ">
         <div className=" xl:px-8 p-4 bg-cyan-300  ">
           <div className=" text-center mb-4 xl:mt-11">
             <span className=" text-3xl font-bold xl:mt-5 ">CONTACT ME</span>
