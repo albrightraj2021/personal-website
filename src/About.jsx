@@ -57,7 +57,7 @@ export default function About() {
             </div>
 
             <hr className="border-1 dark:bg-gray-700 mt-4 ml-6" />
-            <div className="flex xl:mt-10 align-middle xl:gap-4 gap-x-1 xl:w-5/6 w-11/12 mt-5 pl-8">
+            <div className="flex xl:mt-10 align-middle xl:gap-4 gap-x-1 xl:w-6/6 w-11/12 mt-5 pl-8">
               <div>
                 <img src={Signature} alt="signature" />
               </div>

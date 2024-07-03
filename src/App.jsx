@@ -12,7 +12,7 @@ import Header from './Header';
 const ScrollToSection = () => {
   const location = useLocation();
 
-  useEffect(() => {
+ const ce= useEffect(() => {
     const sectionId = location.pathname.substring(1);
     if (sectionId) {
       const element = document.getElementById(sectionId);
@@ -21,7 +21,7 @@ const ScrollToSection = () => {
       }
     }
   }, [location]);
-
+console.log(ce);
   return null;
 };
 
