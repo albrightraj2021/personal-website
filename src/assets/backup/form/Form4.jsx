@@ -50,7 +50,6 @@ function Form4() {
     };
 
     return (
-        <div className="form-container xl:ml-20 xl:w-6/12 ml-1 w-9/12">
             <form onSubmit={handleSubmit(onSubmit)} name="form-content">
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
                   <div>
@@ -74,7 +73,6 @@ function Form4() {
                 {errors.message && <p className='from-gray-950'>{errors.message.message}</p>}
                 <input type="submit" className={`mb-3 mt-4 py-3 px-3 rounded-lg xl:mx-auto font-semibold text-white border-2 border-gray-500 ${isValid && isDirty ? 'bg-cyan-700 hover:bg-cyan-600' : 'bg-cyan-300 cursor-not-allowed'}`} value={"Submit Me"} disabled={!isValid && !isDirty} />
             </form>
-        </div>
     );
 }
 

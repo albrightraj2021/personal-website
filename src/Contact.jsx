@@ -39,7 +39,9 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+            <div className="form-container xl:ml-20 *:-mr-20  xl:w-6/12 ml-1 w-9/12 ">
          <Form />
+         </div>
           </div>
         </div>
       </div>
