@@ -1,8 +1,5 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Form from './Form';
-import Form2 from './Form2';
-import Form3 from './Form3';
-import Form4 from './Form4';
 export default function Contact() {
   return (
     <>
@@ -42,7 +39,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-         <Form4 />
+         <Form />
           </div>
         </div>
       </div>
