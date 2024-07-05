@@ -22,31 +22,28 @@ function Form4() {
            }  
     );
 
-    const mutation = useMutation(
-        (formData) => {
-            return fetch('https://script.google.com/macros/s/AKfycbyxDjKRisupv5SUOX3c3w_RHUVeSNQR2h31CGYQNBtTUe4ZJ3DElB_gfcPpredyejiV/exec', {
-                method: 'POST',
-                body: formData,
-            });
-        },
-        {
-            onSuccess: () => {
-                alert('Form Submitted Successfully');
-                reset();
+            
+    const mutation = useMutation(data => {
+        return fetch('http://localhost:1337/api/demos', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
             },
-            onError: (error) => {
-                console.error('Error!', error.message);
-                alert('Failed to submit the form. Please try again.');
-            },
-        }
-    );
+            body: JSON.stringify({ data: data.attributes }) 
+        });
+    });
 
     const onSubmit = (data) => {
-        const formData = new FormData();
-        for (const key in data) {
-            formData.append(key, data[key]);
-        }
-        mutation.mutate(formData);
+        mutation.mutate({
+            attributes: {
+                Name: data.Name,
+                email: data.email,
+                phone: data.phone,
+                subject: data.subject,
+                message: data.message,
+          
+            }
+        });
     };
 
     return (

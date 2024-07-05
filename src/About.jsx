@@ -4,16 +4,16 @@ export default function About() {
   return (
     <>
 
-      <div className="m-6">
-        <div className="flex flex-col xl:flex-row w-full">
-          <div className="xl:w-6/12 xl:ml-14 my-18 mt-24 mb-14 w-full mx-auto">
+      <div className="">
+        <div className="flex flex-col xl:flex-row w-11/12">
+          <div className="xl:w-6/12 xl:ml-14 my-18 mt-24 mb-14 ml-10 mx-auto">
             <img
               src={AboutImg}
               alt="about"
               className="xl:w-auto w-full rounded-lg"
             />
           </div>
-          <div className="xl:mt-32 xl:mr-12 xl:ml-10 xl:mb-32  w-full">
+          <div className="xl:mt-32 xl:mr-12 xl:ml-12 xl:mb-32 ml-5 pb-5 w-full">
             <p className="xl:text-4xl text-3xl font-semibold ml-3">ABOUT ME</p>
             <p className="text-3xl font-semibold text-cyan-800 mt-4 pl-2">
               Creating Websites That Drive Success

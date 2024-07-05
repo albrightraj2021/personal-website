@@ -1,5 +1,7 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Form from './Form';
+import Form4 from './assets/backup/form/Form4';
+import Form2 from './assets/backup/form/Form2';
 export default function Contact() {
   return (
     <>
@@ -40,7 +42,8 @@ export default function Contact() {
               </div>
             </div>
             <div className="form-container xl:ml-20 *:-mr-20  xl:w-6/12 ml-1 w-9/12 ">
-         <Form />
+         <Form2 />
+
          </div>
           </div>
         </div>
