@@ -22,7 +22,7 @@ export default function Header() {
           </Link>
         </div>
         <button className="md:hidden px-3" onClick={() => setIsOpen(!isOpen)}>
-        <i className="fa-solid fa-bars  pr-4 text-2xl"></i>
+        <i className="fa-solid fa-bars  pr-4 text-2xl" ></i>
         </button>
       </div>
       {isOpen && (
