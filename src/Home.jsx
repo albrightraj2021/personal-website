@@ -10,7 +10,7 @@ export default function Home() {
                         <p className="text-blue-200 text-4xl font-semibold xl:text-6xl xl:mt-11 mt-3 xl:pb-2">Hello, I'm</p>
                         <p className="text-white text-5xl xl:text-7xl mt-7 p-1 font-bold  xl:pb-5">Albright Raj</p>
                         <p className="text-blue-300 xl:text-3xl text-2xl mt-8 pb-6  xl:pb-3">Web Developer</p>
-                        <button className="bg-cyan-600 text-white  px-6 py-4 rounded mt-10 xl:mt-6 text-1xl"><Link to="/contact" className="px-3">Say Hello</Link></button>
+                        <button className="bg-cyan-600 text-white  px-6 py-4 rounded mt-10 xl:mt-6 text-1xl"><Link to="/contact">Say Hello</Link></button>
                     </div>
                     <div className="w-full   xl:w-1/2 flex justify-center mt-7 ">
                         <img src={abr} alt="Albright Raj" className="w-3/4   xl:w-5/6  xl:pr-5  pt-3 object-bottom xl:pt-3 "/>
