@@ -26,7 +26,6 @@ function Form() {
     mutationFn: data => {
       return fetch('https://appsail-50021259031.development.catalystappsail.in/data', {
         method: 'POST',
-       
         headers: {
           'Content-Type': 'application/json',
         },
@@ -43,9 +42,6 @@ function Form() {
       });
     }
   });
-  
-
-
   const onSubmit = (data) => { 
      console.log(data);
     mutation.mutate({
@@ -67,9 +63,6 @@ function Form() {
       }
     });
   };
-
-
-
   return (
     <>
       {showAlert && (
