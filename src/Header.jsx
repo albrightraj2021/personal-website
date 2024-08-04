@@ -17,6 +17,9 @@ export default function Header() {
           <Link to="/about" className="px-3">
             About
           </Link>
+          {/* <Link to="/edu" className="px-3">
+            Education
+          </Link> */}
           <Link to="/contact" className="px-3">
             Contact
           </Link>
