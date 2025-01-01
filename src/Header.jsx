@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,6 +18,9 @@ export default function Header() {
           <Link to="/about" className="px-3">
             About
           </Link>
+          <Link to="/project" className="px-3">
+            Projects
+          </Link>
           {/* <Link to="/edu" className="px-3">
             Education
           </Link> */}
@@ -25,7 +29,7 @@ export default function Header() {
           </Link>
         </div>
         <button className="md:hidden px-3" onClick={() => setIsOpen(!isOpen)}>
-        <i className="fa-solid fa-bars  pr-4 text-2xl" ></i>
+          <i className="fa-solid fa-bars pr-4 text-2xl"></i>
         </button>
       </div>
       {isOpen && (
@@ -36,11 +40,17 @@ export default function Header() {
           <Link to="/about" className="px-3 py-2" onClick={() => setIsOpen(false)}>
             About
           </Link>
+          <Link to="/project" className="px-3 py-2" onClick={() => setIsOpen(false)}>
+            Projects
+          </Link>
           <Link to="/contact" className="px-3 py-2" onClick={() => setIsOpen(false)}>
             Contact
           </Link>
         </div>
       )}
+      <div className="pt-16">
+        {/* Main content goes here */}
+      </div>
     </>
   );
 }

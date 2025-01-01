@@ -4,11 +4,11 @@ import Signature from "./assets/img/signature.png";
 export default function About() {
   return (
     <>
-      <div className="flex flex-col xl:flex-row w-full">
-        <div className="xl:w-6/12 xl:ml-14 my-10 xl:my-24  lg:px-0 w-full px-14 md:w-7/12 md:mx-auto *:mt-10 ">
-          <img src={AboutImg} alt="about" className="w-full rounded-lg" />
+      <div className="flex flex-col xl:flex-row w-full min-h-screen">
+        <div className="xl:w-6/12 xl:mr-12 my-10 xl:my-24 w-full px-5 flex justify-center">
+          <img src={AboutImg} alt="about" className="w-full h-auto rounded-lg max-w-full object-contain" />
         </div>
-        <div className="xl:mt-32 xl:mr-12 xl:ml-12 xl:mb-32 mt-5 pb-5 w-full px-5">
+        <div className="xl:w-6/12 xl:ml-14 my-10 xl:my-24 w-full md:w-7/12 md:mx-auto px-5">
           <p className="xl:text-4xl text-3xl font-semibold ml-3">ABOUT ME</p>
           <p className="text-3xl font-semibold text-cyan-800 mt-4 pl-2">
             Creating Websites That Drive Success
@@ -25,12 +25,12 @@ export default function About() {
                   <li className="pr-6">
                     <p className="font-medium mb-3 text-lg">Name</p>
                     <p className="font-medium mb-3 text-lg">Age</p>
-                    <p className="font-medium mb-3 text-lg">Occupation</p>
+                    <p className="font-medium mb-3 text-lg">Prior Role</p>
                   </li>
                   <li>
                     <p className="mb-3 text-lg">Albright Raj S J</p>
                     <p className="mb-3 text-lg">21 Years</p>
-                    <p className="mb-3 text-lg">System Engineer</p>
+                    <p className="mb-3 text-lg">React Developer</p>
                   </li>
                 </ul>
               </div>
@@ -50,13 +50,12 @@ export default function About() {
               </div>
             </div>
           </div>
-
-          <hr className="border-1 dark:bg-gray-700 mt-4 ml-6" />
-          <div className="flex xl:mt-10  xl:gap-4 gap-x-1 xl:w-full w-11/12 mt-5 pl-8">
-            <div >
+          <hr className="border-1 mt-4 ml-6" />
+          <div className="flex xl:mt-10 xl:gap-4 gap-x-1 xl:w-full w-11/12 mt-5 pl-8">
+            <div>
               <img src={Signature} alt="signature" className="w-24" />
             </div>
-            <div className="flex-1 xl:flex xl:ml-20 *:mt-5 justify-start  xl:gap-6 mt-4 xl:mt-0">
+            <div className="flex-1 xl:flex xl:ml-20 justify-start xl:gap-6 mt-4 xl:mt-0">
               <div className="text-xl">WEB DESIGNER</div>
               <div className="text-gray-500 xl:pt-1">Tamil Nadu, India</div>
             </div>

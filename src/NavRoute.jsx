@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import Edu from './Edu';
+import Project from './Project';
 const ScrollToSection = () => {
     const location = useLocation();
   
@@ -25,17 +26,22 @@ const ScrollToSection = () => {
         <div>
         <Header/>
         <ScrollToSection />
-        <div id="home">
-          <Home />
-        </div>
-        <div id="about">
-          <About />
-        </div>
-        <div id="edu">
-          <Edu />
-        </div>
-        <div id="contact">
-          <Contact />
+        <div className="pt-16">
+          <div id="home">
+            <Home />
+          </div>
+          <div id="about">
+            <About />
+          </div>
+          <div id="project">
+            <Project />
+          </div>
+          <div id="edu">
+            <Edu />
+          </div>
+          <div id="contact">
+            <Contact />
+          </div>
         </div>
       </div>
     )
