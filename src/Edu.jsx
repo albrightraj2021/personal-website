@@ -8,7 +8,7 @@ function Edu() {
     <>
       <div className="flex flex-col xl:flex-row w-full min-h-screen bg-cyan-50">
         <div className="flex flex-col xl:w-9/12 w-full mt-10 px-8 md:px-28 pb-9 pt-12">
-          <p className="text-cyan-600 text-lg">EDUCATION</p>
+          <p className="text-cyan-600 text-xl font-extrabold ">EDUCATION</p>
           <p className="xl:text-4xl text-3xl font-semibold mt-2">My Education</p>
           <p className="text-xl mt-4">
             Education is the passport to the future, for tomorrow belongs to those who prepare for it today.

@@ -21,19 +21,28 @@ export default function Header() {
           <Link to="/project" className="px-3">
             Projects
           </Link>
-          {/* <Link to="/edu" className="px-3">
-            Education
-          </Link> */}
+          <Link to="/edu" className="px-3">
+            Educations 
+          </Link>
           <Link to="/contact" className="px-3">
             Contact
           </Link>
+          <a href="https://github.com/albrightraj2021" className="px-3" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-github text-2xl px-3"></i>
+          </a>
         </div>
-        <button className="md:hidden px-3" onClick={() => setIsOpen(!isOpen)}>
-          <i className="fa-solid fa-bars pr-4 text-2xl"></i>
-        </button>
+        <div className="md:hidden flex items-center">
+          <a href="https://github.com/albrightraj2021" className="px-3" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-github text-2xl pr-2"></i>
+            Github
+          </a>
+          <button className="px-3" onClick={() => setIsOpen(!isOpen)}>
+            <i className="fa-solid fa-bars pr-4 text-2xl"></i>
+          </button>
+        </div>
       </div>
       {isOpen && (
-        <div className="md:hidden flex flex-col bg-zinc-800 text-zinc-50 fixed top-16 left-0 right-0 w-full">
+        <div className="md:hidden flex flex-col bg-zinc-800 text-zinc-50 fixed top-16 left-0 right-0 w-full z-30">
           <Link to="/home" className="px-3 py-2" onClick={() => setIsOpen(false)}>
             Home
           </Link>
@@ -43,14 +52,15 @@ export default function Header() {
           <Link to="/project" className="px-3 py-2" onClick={() => setIsOpen(false)}>
             Projects
           </Link>
+          <Link to="/edu" className="px-3 py-2" onClick={() => setIsOpen(false)}>
+            Educations
+          </Link>
           <Link to="/contact" className="px-3 py-2" onClick={() => setIsOpen(false)}>
             Contact
           </Link>
+         
         </div>
       )}
-      <div className="pt-16">
-        {/* Main content goes here */}
-      </div>
     </>
   );
 }

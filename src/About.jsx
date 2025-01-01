@@ -4,11 +4,11 @@ import Signature from "./assets/img/signature.png";
 export default function About() {
   return (
     <>
-      <div className="flex flex-col xl:flex-row w-full min-h-screen">
-        <div className="xl:w-6/12 xl:mr-12 my-10 xl:my-24 w-full px-5 flex justify-center">
-          <img src={AboutImg} alt="about" className="w-full h-auto rounded-lg max-w-full object-contain" />
+      <div className="flex flex-col xl:flex-row w-full max-w-screen-xl min-h-screen mx-auto">
+        <div className="xl:w-6/12 xl:mx-6 my-11 xl:my-24 w-full  xl:h-full flex justify-center ">
+          <img src={AboutImg} alt="about" className="xl:w-8/12 xl:px-0 p-4 xl:m-0 mt-4 h-full  rounded-3xl max-w-sm sm:max-w-md md:max-w-lg object-contain " />
         </div>
-        <div className="xl:w-6/12 xl:ml-14 my-10 xl:my-24 w-full md:w-7/12 md:mx-auto px-5">
+        <div className="xl:w-6/12 xl:ml-6 my-10 xl:my-24 w-full md:w-7/12 md:mx-auto px-5">
           <p className="xl:text-4xl text-3xl font-semibold ml-3">ABOUT ME</p>
           <p className="text-3xl font-semibold text-cyan-800 mt-4 pl-2">
             Creating Websites That Drive Success
