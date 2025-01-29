@@ -24,7 +24,7 @@ function Form() {
 
   const mutation = useMutation({
     mutationFn: data => {
-      return fetch('https://appsail-50021259031.development.catalystappsail.in/data', {
+      return fetch('https://script.google.com/macros/s/AKfycbxMg9Tj-wg7wN3mEdTgkNZq3ziqMLeVwDZER_zLaoN21WQvxPpLEzmhn9_5mUA6YzjT/exec', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
